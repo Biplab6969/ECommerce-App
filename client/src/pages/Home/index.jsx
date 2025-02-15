@@ -1,8 +1,19 @@
 import React from 'react'
+import HomeSlider from '../../components/HomeSlider'
+import HomeCatSlider from '../../components/CatSlider'
 
 function Home() {
   return (
-    <div>Home</div>
+    <>
+    <HomeSlider />
+    <HomeCatSlider />
+
+    <section className='py-5 bg-white'>
+
+    </section>
+
+    <br/><br/><br/><br/><br/>
+    </>
   )
 }
 
