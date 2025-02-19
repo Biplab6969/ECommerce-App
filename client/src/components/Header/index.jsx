@@ -56,10 +56,10 @@ function Header() {
         </div>
       </div>
 
-      <div className="header py-4 border-b-[1px] border-gray-250">
+      <div className="header py-2 border-b-[1px] border-gray-250">
         <div className="container flex items-center justify-between">
-          <div className="col1 text-primary w-[25%] ">
-            <Link to={"/"}>ECommerce </Link>
+          <div className="col1 text-primary w-[7rem] ">
+            <Link to={"/"}><img src="/logo.png" className="h-full" /></Link>
           </div>
 
           <div className="col2 w-[45%] ">
